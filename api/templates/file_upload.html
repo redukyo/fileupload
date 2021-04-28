@@ -1,0 +1,8 @@
+<h3>file upload</h3>
+<hr />
+<form id="form" method="post" enctype="multipart/form-data" action="{% url 'upload' %}">
+    {% csrf_token %}
+    <input type="file" name="file" />
+    <br/>
+    <button type="submit">submit</button>
+</form>

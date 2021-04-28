@@ -1,0 +1,11 @@
+{
+    "python.globalModuleInstallation": true,
+    "python.formatting.provider": "black",
+    "beautify.language": {
+        "html": [
+            "django-html"
+        ]
+    },
+    "python.formatting.autopep8Args": ["--max-line-length=220"],
+    "python.pythonPath": "/root/workspace/venv/bin/python3",
+}
